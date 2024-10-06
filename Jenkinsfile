@@ -7,7 +7,7 @@ pipeline {
     stages {        
         stage('Clone') {
             steps {
-                git url: 'https://github.com/Jayesh5124/authentication-service.git', branch: 'authentication-service'
+                git url: 'https://github.com/Jayesh5124/authentication-service.git', branch: 'main'
             }
         }
         stage('Build') {
